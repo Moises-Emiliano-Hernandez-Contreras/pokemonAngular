@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+      --Dark-cyan: hsl(185, 75%, 39%);
+      --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+      --Dark-grayish-blue: hsl(227, 10%, 46%);
+      --Dark-gray: hsl(0, 0%, 59%);
+}
+html {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-size: 62.5%;
+    }
+    
+    *, *:before, *:after {
+      -webkit-box-sizing: inherit;
+              box-sizing: inherit;
+      }
+    
+body {
+      font-family: 'Kumbh Sans', sans-serif;
+      background-color: var(--Dark-cyan);      
+      background-image: url(./assets/images/bg-pattern-bottom.svg),url(./assets/images/bg-pattern-top.svg);
+      background-repeat: no-repeat, no-repeat;
+      background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
